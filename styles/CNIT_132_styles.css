@@ -77,10 +77,13 @@ input[type="text"]
   }
 }
 
-h4 {
+h3 {
     color: #000d52;
   }
 
+li{
+  margin: 10px 0;
+}
 
 .bdc {border: 2px solid black; border-collapse: collapse; border-spacing:0;padding: 10px;}
 
