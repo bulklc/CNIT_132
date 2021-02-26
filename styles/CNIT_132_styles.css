@@ -95,4 +95,5 @@ img {
   border: 5px solid #019589;
 }
 
-
+p.ftr {font-size: 1vw;} 
+p.ftr.str {font-weight: bold;} 
