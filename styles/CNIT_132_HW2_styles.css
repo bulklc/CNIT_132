@@ -14,10 +14,10 @@
     
     .cell_modified {padding: 10px;}
     
-    .first_letter {font-size: 48px;  font-style: italic;  font-weight: bold;}
+    .first_letter {font-size: 3em;  font-style: italic;  font-weight: bold;}
     
     .red_font {color: red;}
     
-    .h2_modified.exc_end {font-size: 48px; margin-top: 20px; margin-bottom: 20px;}
+    .h2_modified.exc_end {font-size: 3em; margin-top: 20px; margin-bottom: 20px;}
     
     .col_two {text-align: center;}
