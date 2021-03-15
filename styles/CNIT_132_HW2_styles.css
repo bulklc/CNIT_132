@@ -70,7 +70,7 @@
     }
 
    .ext_cred_banner {
-        width: 240px;
+        width: 300px;
         height: 60px;
         background: yellow;
         position: relative;
@@ -92,7 +92,7 @@
 
         100% {
             background: red;
-            left: 79%;
+            left: 73%;
             top: 0px;
         }
     }
