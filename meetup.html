@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 
-<!-- This Page was created by Christopher Bulkley - Logston. It was started on February 19th, 2021 and completed by February 23rd, 2021. -->
+<!-- This Page was created by Christopher Bulkley - Logston. It was started on February 19th, 2021 and completed by May 5th, 2021. -->
 
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles/CNIT_132_styles.css">
+    <link rel="stylesheet" href="css/CNIT_132_styles_final_proj.css">
     <title>CNIT132-CBL-MeetUp</title>
     <meta charset="utf-8">
     <meta name="description" content="CNIT 132 - Christopher Bulkley - Logston - MeetUp Report">
     <meta name="keywords" content="HTML, CSS, JavaScript, Recursion">
     <meta name="author" content="Christopher Bulkley - Logston">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="recursion.js"></script>
+    <script src="js/recursion.js"></script>
 </head>
 
 <body>
 
-  <section>
+    <div class="grid-container">
+        <div class="header">
 
-    <h2>Chris BL - CNIT 132 - Intermediate HTML and CSS - MeetUp Report</h2>
+            <h2>Chris BL - CNIT 132 - Intermediate HTML and CSS - MeetUp Report</h2>
 
-        <nav>
+        </div>
+        <div class="left">
             <h3>Site Navigation</h3>
-            <ul>
+
+            <ul class="nav_list">
                 <li><a href="homework1.html">Home</a></li>
                 <li><a href="assignments.html">Assignments</a></li>
                 <li><strong>MeetUp Report</strong></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
 
-        <article>
+        </div>
+        <div class="right">
 
             <h4>MeetUp Report - Learn To Code: Recursion in JavaScript</h4>
             <h5>April 29th, 2021 - 5:30pm to 7:30pm</h5>
@@ -39,48 +42,43 @@
 
 
 
-<p>I attended a remote meeting focused on the power of recursive programming in all languages, but specifically within JavaScript. I learned about the meeting from a posting on <a href="https://www.meetup.com/Learn-To-Code-Front-Range/events/277447126/" target="_blank" rel="noopener noreferrer">MeetUp.com</a>. It was hosted by <a href="https://www.meetup.com/Learn-To-Code-Front-Range/" target="_blank" rel="noopener noreferrer">Learn to Code</a>, an organization dedicated to introducing individuals with minimal background experience to the world of Computer Science and Software Development. The meeting was administered in affiliation with <a href="https://www.galvanize.com/" target="_blank" rel="noopener noreferrer">Galvanize</a>, a Company that provides training, bootcamps and co-working space in San Francisco.</p>
+            <p>I attended a remote meeting focused on the power of recursive programming in all languages, but specifically within JavaScript. I learned about the meeting from a posting on <a href="https://www.meetup.com/Learn-To-Code-Front-Range/events/277447126/" target="_blank" rel="noopener noreferrer">MeetUp.com</a>. It was hosted by <a href="https://www.meetup.com/Learn-To-Code-Front-Range/" target="_blank" rel="noopener noreferrer">Learn to Code</a>, an organization dedicated to introducing individuals with minimal background experience to the world of Computer Science and Software Development. The meeting was administered in affiliation with <a href="https://www.galvanize.com/" target="_blank" rel="noopener noreferrer">Galvanize</a>, a Company that provides training, bootcamps and co-working space in San Francisco.</p>
 
-<p> A screenshot of the event posting is shown below:</p>
+            <p> A screenshot of the event posting is shown below:</p>
 
-<img src="photos/event_ss.png" alt="Screenshot of Event on Eventbrite" width="750">
+            <img src="photos/event_ss.png" alt="Screenshot of Event on Eventbrite" width="750">
 
-<p>During the meeting, we learned about the advantages which recursive algorithms offer over other approaches to methodical problem solving, notably standard / linear iteration. We learned that recursive processes allow for all indexing and identification within sub-instances to be processed within their parent instances, thereby removing the exponential increase in demand for computing resources when all instances are treated equally and memory is maintained from begining to end of the entire process (as in standard iteration).</p>
+            <p>During the meeting, we learned about the advantages which recursive algorithms offer over other approaches to methodical problem solving, notably standard / linear iteration. We learned that recursive processes allow for all indexing and identification within sub-instances to be processed within their parent instances, thereby removing the exponential increase in demand for computing resources when all instances are treated equally and memory is maintained from begining to end of the entire process (as in standard iteration).</p>
 
-<p>We also learned / rehearsed several techniques which often come in handy when working with recursive systems, including:</p>
+            <p>We also learned / rehearsed several techniques which often come in handy when working with recursive systems, including:</p>
 
-<ul>
-<li> Tracing developments within the call-stack;</li>
-<li> Defining sub-problems within the base / original problem;</li>
-<li> Defining base cases within the system being developed.</li>
-</ul>
+            <ul>
+                <li> Tracing developments within the call-stack;</li>
+                <li> Defining sub-problems within the base / original problem;</li>
+                <li> Defining base cases within the system being developed.</li>
+            </ul>
 
-<p>By the end of this meeting, I was inspired to build a minimum working example of something truly recursive in JavaScript. While I still have a ways to go to be able to fully explain the value offered by recursion, I can confidently state that</p><blockquote>“A recursive function is one that calls itself.”</blockquote>
+            <p>By the end of this meeting, I was inspired to build a minimum working example of something truly recursive in JavaScript. While I still have a ways to go to be able to fully explain the value offered by recursion, I can confidently state that</p>
+            <blockquote>“A recursive function is one that calls itself.”</blockquote>
 
-<p>Armed with this elegant deffinition, I developed the code found within the file of this site named "recursion.js", which creates the nested, size/color-graded list shown below.</p>
+            <p>Armed with this elegant deffinition, I developed the code found within the file of this site named "recursion.js", which creates the nested, size/color-graded list shown below.</p>
 
 
-        <div id="recursive_example">
-          <script>
-            document.getElementById("recursive_example").innerHTML += rec_list_gen(15, 15);
-          </script>
+            <div id="recursive_example">
+                <script>
+                    document.getElementById("recursive_example").innerHTML += rec_list_gen(15, 15);
+                </script>
+            </div>
+
+            This web page has been created in response to instructor direction provided on the <a href="https://ccsf.instructure.com/courses/41416/assignments/632259" target="_blank" rel="noopener noreferrer">MeetUp Report Page on Canvas</a>. This assignment is due by 11:59 pm on May 18th, 2021. The total amount of non-extra-credit points achievable is 10.
+
         </div>
 
- This web page has been created in response to instructor direction provided on the <a href="https://ccsf.instructure.com/courses/41416/assignments/632259" target="_blank" rel="noopener noreferrer">MeetUp Report Page on Canvas</a>. This assignment is due by 11:59 pm on May 18th, 2021. The total amount of non-extra-credit points achievable is 10.
 
-        </article>
+        <div class="footer">
+            <p class="ftr str">San Francisco City College - Spring 2021</p>
+            <p class="ftr">Last Updated 2021 - May - 16</p>
+        </div>
 
-
-
-
-    </section>
-
-
-
-    <footer>
-        <p class="ftr str">San Francisco City College - Spring 2021</p>
-        <p class="ftr">Last Updated 2021 - May - 15</p>
-    </footer>
-</body>
 
 </html>

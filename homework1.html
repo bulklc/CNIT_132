@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 
-<!-- This Page was created by Christopher Bulkley - Logston. It was started on February 19th, 2021 and completed by February 23rd, 2021. -->
+<!-- This Page was created by Christopher Bulkley - Logston. It was started on February 19th, 2021 and completed by May 18th, 2021. -->
 
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles/CNIT_132_styles.css">
+    <link rel="stylesheet" href="css/CNIT_132_styles_final_proj.css">
     <title>CNIT132-CBL-HW1</title>
     <meta charset="utf-8">
     <meta name="description" content="CNIT 132 - Christopher Bulkley - Logston - Home Page">
-    <meta name="keywords" content="HTML, CSS">
+    <meta name="keywords" content="HTML, CSS, GRID">
     <meta name="author" content="Christopher Bulkley - Logston">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
 </head>
 
 <body>
 
-  <section>
+    <div class="grid-container">
+        <div class="header">
+            <h2>Chris BL - CNIT 132 - Intermediate HTML and CSS - Home</h2>
+        </div>
 
-     <h2>Chris BL - CNIT 132 - Intermediate HTML and CSS - Home</h2>
-
-        <nav>
+        <div class="left">
             <h3>Site Navigation</h3>
-            <ul>
+
+            <ul class="nav_list">
                 <li><strong>Home</strong></li>
                 <li><a href="assignments.html">Assignments</a></li>
                 <li><a href="meetup.html">MeetUp Report</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
 
-        <article>
+        </div>
+        <div class="right">
 
 
             <img src="photos/chris_001.jpeg" alt="Photo of Chris" height="150"><br><br>
@@ -52,15 +53,6 @@
 
             There are also many articles online about the history of the Internet in general. One article on Techopedia discusses the Internet's history, including during the <a href="https://www.techopedia.com/2/31579/networks/a-brief-history-of-web-development#the-turn-of-the-century" target="_blank" rel="noopener noreferrer">Turn of the Century</a>.
 
-
-
-
-
-
-
-
-
-
             <br><br>
             <hr>
 
@@ -71,23 +63,14 @@
                 <li><a href="https://beautifier.io" target="_blank" rel="noopener noreferrer">Code Beautifier</a><br><br>This website provides visitors with a paste / copy window which "beautifies" and organizes otherwise-messy code. It works on HTML, CSS and JavaScript. This beautification makes the resulting code easier to read and maintain. <br><br></li>
                 <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">Stack Overflow Forum</a><br><br>This question and answer website offers user-provided solutions to a vast array of specific problems / questions across many different languages, including HTML, JavaScript, CSS, etc. Its vote-ranking system also provides quality context when visitors encounter multiple completing solutions to the same problem.</li>
             </ul>
+        </div>
 
+        <div class="footer">
+            <p class="ftr str">San Francisco City College - Spring 2021</p>
+            <p class="ftr">Last Updated 2021 - May - 16</p>
+        </div>
+    </div>
 
-
-        </article>
-
-
-
-
-    </section>
-
-
-
-    <footer>
-        <p class="ftr str">San Francisco City College - Spring 2021</p>
-        <p class="ftr">Last Updated 2021 - February - 26</p>
-    </footer>
-
-</body>
+  </body>
 
 </html>
