@@ -21,7 +21,7 @@ body {
 }
 
 .grid-container {
-    width:85%;
+    width:85vw;
     margin: auto;
     display: grid;
     grid-auto-columns: 20%;
