@@ -21,6 +21,8 @@ body {
 }
 
 .grid-container {
+    width:85%;
+    margin: auto;
     display: grid;
     grid-auto-columns: 20%;
 
@@ -78,7 +80,7 @@ a.footer_link {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .grid-container {
         grid-template-areas:
             'header header header header header'
